@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.7.0)
+  - Bond (6.6.1):
+    - Differ (~> 1.0)
+    - ReactiveKit (~> 3.8)
+  - Differ (1.0.3)
+  - Moya (11.0.1):
+    - Moya/Core (= 11.0.1)
+  - Moya/Core (11.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - ReactiveKit (3.9.1)
+  - Result (3.2.4)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+
+DEPENDENCIES:
+  - Bond
+  - Moya
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  Bond: d83b0b693578429a285eec2c46a829ea24831604
+  Differ: 0c220ac75542f5f17f91b1303b85bf07d871ecd7
+  Moya: 3d594ada51a21cc02b18739ab578a1984f900c8a
+  ReactiveKit: 472aeba0d3ae838d8b813cce62b42d4b29368f2c
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+
+PODFILE CHECKSUM: a4b0632fd74bc067bbc75da94d3d5bd1f0b4d3e1
+
+COCOAPODS: 1.4.0

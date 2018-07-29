@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313108F0210DEA2C00864FA5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313108EE210DEA2C00864FA5 /* HomeViewController.swift */; };
+		313108F1210DEA2C00864FA5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313108EF210DEA2C00864FA5 /* HomeViewController.xib */; };
+		313108F3210DEA8300864FA5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313108F2210DEA8300864FA5 /* HomeViewModel.swift */; };
+		313108F6210DEE1200864FA5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313108F5210DEE1100864FA5 /* Models.swift */; };
+		313108F9210DEE5500864FA5 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313108F8210DEE5500864FA5 /* WeatherService.swift */; };
+		313108FC210DF00800864FA5 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313108FB210DF00800864FA5 /* WeatherManager.swift */; };
 		316A75E3210DE71F00968EF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A75E2210DE71F00968EF6 /* AppDelegate.swift */; };
-		316A75E5210DE71F00968EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A75E4210DE71F00968EF6 /* ViewController.swift */; };
-		316A75E8210DE71F00968EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316A75E6210DE71F00968EF6 /* Main.storyboard */; };
 		316A75EA210DE72A00968EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316A75E9210DE72A00968EF6 /* Assets.xcassets */; };
 		316A75ED210DE72A00968EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316A75EB210DE72A00968EF6 /* LaunchScreen.storyboard */; };
+		31FCB932210DF20900036350 /* Moya+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FCB92E210DF20900036350 /* Moya+Request.swift */; };
+		31FCB933210DF20900036350 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FCB92F210DF20900036350 /* Parser.swift */; };
+		31FCB934210DF20900036350 /* ParseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FCB930210DF20900036350 /* ParseResult.swift */; };
+		31FCB935210DF20900036350 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FCB931210DF20900036350 /* ParseError.swift */; };
+		B18F0996D93CBF5EE37991CF /* Pods_DataBindingiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882C4A0AD64DCF6731A44273 /* Pods_DataBindingiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		313108EE210DEA2C00864FA5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		313108EF210DEA2C00864FA5 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		313108F2210DEA8300864FA5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		313108F5210DEE1100864FA5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		313108F8210DEE5500864FA5 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		313108FB210DF00800864FA5 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		316A75DF210DE71F00968EF6 /* DataBindingiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBindingiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		316A75E2210DE71F00968EF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		316A75E4210DE71F00968EF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		316A75E7210DE71F00968EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		316A75E9210DE72A00968EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		316A75EC210DE72A00968EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		316A75EE210DE72A00968EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FCB92E210DF20900036350 /* Moya+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Moya+Request.swift"; sourceTree = "<group>"; };
+		31FCB92F210DF20900036350 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		31FCB930210DF20900036350 /* ParseResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseResult.swift; sourceTree = "<group>"; };
+		31FCB931210DF20900036350 /* ParseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseError.swift; sourceTree = "<group>"; };
+		7E0C34C5652F8FBAE3C53E52 /* Pods-DataBindingiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBindingiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataBindingiOS/Pods-DataBindingiOS.release.xcconfig"; sourceTree = "<group>"; };
+		84AECA4B0A4473A130B24025 /* Pods-DataBindingiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBindingiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataBindingiOS/Pods-DataBindingiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		882C4A0AD64DCF6731A44273 /* Pods_DataBindingiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataBindingiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18F0996D93CBF5EE37991CF /* Pods_DataBindingiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313108EC210DE9F700864FA5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				313108ED210DEA0E00864FA5 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		313108ED210DEA0E00864FA5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				313108EF210DEA2C00864FA5 /* HomeViewController.xib */,
+				313108EE210DEA2C00864FA5 /* HomeViewController.swift */,
+				313108F2210DEA8300864FA5 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		313108F4210DEE0700864FA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				313108F5210DEE1100864FA5 /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		313108F7210DEE3C00864FA5 /* Moya Services */ = {
+			isa = PBXGroup;
+			children = (
+				313108F8210DEE5500864FA5 /* WeatherService.swift */,
+			);
+			path = "Moya Services";
+			sourceTree = "<group>";
+		};
+		313108FA210DEFDF00864FA5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				313108FB210DF00800864FA5 /* WeatherManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		316A75D6210DE71F00968EF6 = {
 			isa = PBXGroup;
 			children = (
 				316A75E1210DE71F00968EF6 /* DataBindingiOS */,
 				316A75E0210DE71F00968EF6 /* Products */,
+				531BFCA852F3FF6D078A27B6 /* Pods */,
+				8CB1AD692F89D1F28DA20DCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +120,44 @@
 			isa = PBXGroup;
 			children = (
 				316A75E2210DE71F00968EF6 /* AppDelegate.swift */,
-				316A75E4210DE71F00968EF6 /* ViewController.swift */,
-				316A75E6210DE71F00968EF6 /* Main.storyboard */,
 				316A75E9210DE72A00968EF6 /* Assets.xcassets */,
-				316A75EB210DE72A00968EF6 /* LaunchScreen.storyboard */,
 				316A75EE210DE72A00968EF6 /* Info.plist */,
+				316A75EB210DE72A00968EF6 /* LaunchScreen.storyboard */,
+				313108FA210DEFDF00864FA5 /* Managers */,
+				313108F4210DEE0700864FA5 /* Model */,
+				31FCB92D210DF1BF00036350 /* Moya Helpers */,
+				313108F7210DEE3C00864FA5 /* Moya Services */,
+				313108EC210DE9F700864FA5 /* Scenes */,
 			);
 			path = DataBindingiOS;
+			sourceTree = "<group>";
+		};
+		31FCB92D210DF1BF00036350 /* Moya Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				31FCB92E210DF20900036350 /* Moya+Request.swift */,
+				31FCB931210DF20900036350 /* ParseError.swift */,
+				31FCB92F210DF20900036350 /* Parser.swift */,
+				31FCB930210DF20900036350 /* ParseResult.swift */,
+			);
+			path = "Moya Helpers";
+			sourceTree = "<group>";
+		};
+		531BFCA852F3FF6D078A27B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84AECA4B0A4473A130B24025 /* Pods-DataBindingiOS.debug.xcconfig */,
+				7E0C34C5652F8FBAE3C53E52 /* Pods-DataBindingiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CB1AD692F89D1F28DA20DCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882C4A0AD64DCF6731A44273 /* Pods_DataBindingiOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 316A75F1210DE72A00968EF6 /* Build configuration list for PBXNativeTarget "DataBindingiOS" */;
 			buildPhases = (
+				E0992200BFB673ACA16EAAE2 /* [CP] Check Pods Manifest.lock */,
 				316A75DB210DE71F00968EF6 /* Sources */,
 				316A75DC210DE71F00968EF6 /* Frameworks */,
 				316A75DD210DE71F00968EF6 /* Resources */,
+				CC7E5F199E4D7C5F927D8AC5 /* [CP] Embed Pods Frameworks */,
+				FA0BCABB89D4874853E90A2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,33 +222,99 @@
 			files = (
 				316A75ED210DE72A00968EF6 /* LaunchScreen.storyboard in Resources */,
 				316A75EA210DE72A00968EF6 /* Assets.xcassets in Resources */,
-				316A75E8210DE71F00968EF6 /* Main.storyboard in Resources */,
+				313108F1210DEA2C00864FA5 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC7E5F199E4D7C5F927D8AC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DataBindingiOS/Pods-DataBindingiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bond/Bond.framework",
+				"${BUILT_PRODUCTS_DIR}/Differ/Differ.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveKit/ReactiveKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bond.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differ.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataBindingiOS/Pods-DataBindingiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0992200BFB673ACA16EAAE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataBindingiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0BCABB89D4874853E90A2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataBindingiOS/Pods-DataBindingiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		316A75DB210DE71F00968EF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316A75E5210DE71F00968EF6 /* ViewController.swift in Sources */,
+				31FCB932210DF20900036350 /* Moya+Request.swift in Sources */,
+				313108F9210DEE5500864FA5 /* WeatherService.swift in Sources */,
 				316A75E3210DE71F00968EF6 /* AppDelegate.swift in Sources */,
+				31FCB934210DF20900036350 /* ParseResult.swift in Sources */,
+				31FCB935210DF20900036350 /* ParseError.swift in Sources */,
+				313108F3210DEA8300864FA5 /* HomeViewModel.swift in Sources */,
+				31FCB933210DF20900036350 /* Parser.swift in Sources */,
+				313108FC210DF00800864FA5 /* WeatherManager.swift in Sources */,
+				313108F0210DEA2C00864FA5 /* HomeViewController.swift in Sources */,
+				313108F6210DEE1200864FA5 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		316A75E6210DE71F00968EF6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				316A75E7210DE71F00968EF6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		316A75EB210DE72A00968EF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -277,6 +442,7 @@
 		};
 		316A75F2210DE72A00968EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84AECA4B0A4473A130B24025 /* Pods-DataBindingiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,6 +460,7 @@
 		};
 		316A75F3210DE72A00968EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0C34C5652F8FBAE3C53E52 /* Pods-DataBindingiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
