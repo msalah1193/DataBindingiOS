@@ -15,12 +15,10 @@ protocol Parser {
 
 struct DefualtParser: Parser {
     static func parse<T>(_ response: Data, completion: ParseCompletion<T>) {
-        print(String(data: response, encoding: .utf8) ?? "")
         do {
             let mappedObject = try JSONDecoder().decode(T.self, from: response)
             completion(.object(mappedObject))
         } catch {
-            print(error.localizedDescription)
             completion(.failure(ParseError.invalid))
         }
     }
