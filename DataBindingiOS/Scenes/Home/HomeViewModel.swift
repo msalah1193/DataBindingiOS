@@ -9,9 +9,17 @@ import Foundation
 import Bond
 import ReactiveKit
 
-enum CityCode: String {
-    case cairo = "Cairo"
-    case london = "London"
+enum CityCode: Int {
+    case cairo = 0, london
+    
+    var key: String {
+        switch self {
+        case .cairo:
+            return "Cairo"
+        case .london:
+            return "London"
+        }
+    }
 }
 
 struct CityViewModel {
@@ -61,7 +69,7 @@ struct DefaultHomeViewModel: HomeViewModel {
         networkError.value = ""
         isLoadingData.value = true
         
-        weatherManager.getCurrent(in: code.rawValue, completion: { result in
+        weatherManager.getCurrent(in: code.key, completion: { result in
             self.isLoadingData.value = false
             
             switch result {

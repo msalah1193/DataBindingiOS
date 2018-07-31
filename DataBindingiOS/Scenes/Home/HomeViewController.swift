@@ -42,7 +42,7 @@ class HomeViewController: UIViewController {
         viewModel.networkError.bind(to: errorLabel.reactive.text)
         
         segmentControl.reactive.selectedSegmentIndex.skip(first: 1).observeNext { [unowned self] value in
-            self.viewModel.cityCode.value = value == 0 ? .cairo : .london
+            self.viewModel.cityCode.value = CityCode(rawValue: value)!
         }.dispose(in: viewModel.disposeBag)
         
         viewModel.cityViewModel.observeNext { [unowned self] cityViewModel in
@@ -50,6 +50,7 @@ class HomeViewController: UIViewController {
                 self.resetViews()
                 return
             }
+            
             self.weatherDegreeLabel.text = viewModel.temp
             self.conditionLabel.text = viewModel.conditionText
             self.conditionImageView.sd_setImage(with: viewModel.conditionIcon)
