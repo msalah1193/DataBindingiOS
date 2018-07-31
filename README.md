@@ -1,5 +1,5 @@
 # DataBindingiOS
-Simple Weather App using MVVM architecture, appling data binding with SwiftBond and networking with Moya
+Simple Weather App using MVVM architecture, applying data binding with SwiftBond and networking with Moya
 
 <img src="resources/demo.gif"/>
 
