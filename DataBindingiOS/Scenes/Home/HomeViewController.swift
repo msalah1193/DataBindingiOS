@@ -20,6 +20,10 @@ class HomeViewController: UIViewController {
     // MARK: - Variables
     var viewModel: HomeViewModel
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     // MARK: - init(s)
     required init(viewModel: HomeViewModel) {
         self.viewModel = viewModel
